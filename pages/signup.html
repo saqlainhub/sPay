@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup to sPay Account</title>
+
+    <!-- ========================= FAVICON ========================== -->
+    <link rel="icon" href="../assets/images/Favicon.png" type="image/png">
+
+    <!-- =================== CSS STYLING ======================== -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/pages/form.css">
+
+    <!-- ====================== ICONS & FONTS ==================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======================== NAVBAR ============================= -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="../assets/images/logo-light.png" alt="sPay" class="logo">
+        </div>
+        <div class="nav-middle">
+            <a href="#" class="nav-link nav-active">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">How to</a>
+        </div>
+        <div class="nav-right">
+            <button id="themeToogle" class="btn-toogle" aria-label="Toggle theme"><i
+                    class="fa-solid fa-sun"></i></button>
+        </div>
+    </nav>
+
+    <!-- ========================= Main =============================== -->
+    <div class="main-container" style="margin-bottom: 150px;">
+        <div class="left-container">
+            <img src="../assets/images/credit-cards.png" alt="Credit Cards" class="credit-cards">
+
+            <div class="main-container-content">
+                <h1 class="hero-title">Simple and Safe Banking</h1>
+                <p class="hero-peragraph">sPay is a secure and intuitive digital wallet designed to manage your money
+                    effortlessly. Send, receive, and track transactions.</p>
+            </div>
+        </div>
+        <div class="right-container">
+
+            <form class="form" style="margin-top: 100px;">
+                <h2 id="form-heading">Signup</h2>
+
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="name" placeholder="John Doe" />
+                </div>
+                <div class="form-group">
+                    <label>CNIC</label>
+                    <input type="text" placeholder="12345 1234567 1" pattern="[0-9]{5}[0-9]{7}[0-9]{1}" required />
+                </div>
+                <div class="form-group">
+                    <label>Account Number</label>
+                    <input type="tel" id="phoneInput" value="+92 " placeholder="+92 3XX XXXXXXX" maxlength="15"
+                        required />
+                </div>
+                <div class="form-group">
+                    <label>Account PIN</label>
+                    <input type="password" placeholder="123456" maxlength="6" required />
+                </div>
+                <div class="form-group">
+                    <label>Re-Enter PIN</label>
+                    <input type="password" placeholder="123456" maxlength="6" required />
+                </div>
+
+
+
+                <button type="button" onclick="window.location.href='./login.html'" class="btn btn-full">Signup <i
+                        class="fa-solid fa-arrow-right"></i></button>
+                <a href="./login.html" class="account-link" id="account-link">Already have account? Login Account</a>
+
+            </form>
+
+
+        </div>
+    </div>
+    <!-- ========================= FOOTER ============================ -->
+    <footer class="footer" style="padding-left: 40%;">
+        <p class="footer-text">Copyright © 2026 sPay, All Right Reserved</p>
+    </footer>
+
+
+
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</body>
+
+</html>

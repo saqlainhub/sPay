@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sPay Dashboard</title>
+
+    <!-- ========================= FAVICON ========================== -->
+    <link rel="icon" href="../assets/images/Favicon.png" type="image/png">
+
+    <!-- =================== CSS STYLING ======================== -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/pages/dashboard.css">
+
+    <!-- ====================== ICONS & FONTS ==================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ========================== Container ======================= -->
+    <div class="dashboard-container">
+        <div class="dashboard-sidebar">
+            <div class="sidebar-top">
+                <h2 class="sidebar-heading">sPay</h2>
+                <div class="sidebar-links">
+                    <div><a href="./dashboard.html" class="sidebar-link sidebar-active"><i class="fa-solid fa-home"></i>
+                            Dashboard</a></div>
+                    <div><a href="./transactions.html" class="sidebar-link"><i class="fa-solid fa-history"></i>
+                            Transactions</a></div>
+                    <div><a href="./settings.html" class="sidebar-link"><i class="fa-solid fa-tools"></i> Settings</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-bottom">
+                <div><a href="./login.html" class="sidebar-link"><i class="fa-solid fa-arrow-right-to-bracket"></i> Logout</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-content">
+
+            <!-- =========================== NAVBAR ========================= -->
+            <div class="dashboard-nav">
+                <div class="dashboard-nav-left">Dashboard</div>
+                <div class="dashboard-nav-right">
+                    <div class="dashboard-icon"><i class="fa-solid fa-bell"></i></div>
+                    <div class="profile">
+                        <div class="profile-img"></div>
+                        <p>Saqlain</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="db-content">
+                <div class="db-main">
+                    <div class="db-main-card">
+                        <div class="db-main-card-top">
+                            <div class="db-mct-text">Available Balance</div>
+                            <div class="db-mct-currency-btn">PKR <i class="fa-solid fa-angle-down"></i></div>
+                        </div>
+                        <div class="db-main-card-middle">
+                            <div class="current-balance">817,432.09</div>
+                        </div>
+                        <div class="db-main-card-bottom">
+                            <div class="db-mcb-text">Account***349</div>
+                            <div class="db-mcb-add-btn">+ Add</div>
+                        </div>
+                    </div>
+                    <div class="db-main-operations">
+                        <div class="dbmo-card">
+                            <div class="dbmo-card-left">
+                                <div class="dbmo-card-icon"><i class="fa-solid fa-wallet"></i></div>
+                                <div class="dbmo-card-info">
+                                    <div class="dbmo-card-title">Withdraw Money</div>
+                                    <div class="dbmo-card-text">Get money from your account</div>
+                                </div>
+                            </div>
+                            <div class="dbmo-card-right"><i class="fa-solid fa-up-right-from-square"></i></div>
+                        </div>
+
+                        <div class="dbmo-card">
+                            <div class="dbmo-card-left">
+                                <div class="dbmo-card-icon"><i class="fa-solid fa-wallet"></i></div>
+                                <div class="dbmo-card-info">
+                                    <div class="dbmo-card-title">Deposite Money</div>
+                                    <div class="dbmo-card-text">Get money from your account</div>
+                                </div>
+                            </div>
+                            <div class="dbmo-card-right"><i class="fa-solid fa-up-right-from-square"></i></div>
+                        </div>
+
+                        <div class="dbmo-card">
+                            <div class="dbmo-card-left">
+                                <div class="dbmo-card-icon"><i class="fa-solid fa-wallet"></i></div>
+                                <div class="dbmo-card-info">
+                                    <div class="dbmo-card-title">Transfer Money</div>
+                                    <div class="dbmo-card-text">Get money from your account</div>
+                                </div>
+                            </div>
+                            <div class="dbmo-card-right"><i class="fa-solid fa-up-right-from-square"></i></div>
+                        </div>
+
+                        <div class="dbmo-card">
+                            <div class="dbmo-card-left">
+                                <div class="dbmo-card-icon"><i class="fa-solid fa-wallet"></i></div>
+                                <div class="dbmo-card-info">
+                                    <div class="dbmo-card-title">Withdraw Money</div>
+                                    <div class="dbmo-card-text">Get money from your account</div>
+                                </div>
+                            </div>
+                            <div class="dbmo-card-right"><i class="fa-solid fa-up-right-from-square"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="db-transactions">
+                    <div class="db-transactions-top">
+                        <div class="db-transactions-heading">Transactions</div>
+                        <a href="#" class="btn-link btn-link-sm">View all</a>
+                    </div>
+                    <div class="db-transactions-tags">
+                        <a href="#" class="tag-active">All</a>
+                        <a href="#">Withdraws</a>
+                        <a href="#">Deposits</a>
+                        <a href="#">Transfer</a>
+                    </div>
+                    <div class="db-transactions-list">
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+                        <div class="db-list-group">
+                            <div class="db-list-content">
+                                <div class="db-list-icon"><i class="fa-solid fa-suitcase"></i></div>
+                                <div class="db-list-info">
+                                    <h3 class="db-list-name">Saqlain Ahmad</h3>
+                                    <p class="db-list-date">11/02/2026</p>
+                                </div>
+                            </div>
+                            <div class="db-list-money">-$189.36</div>
+                        </div>
+
+
+
+                        <div class="db-transactions-btn"><a href="#" class="btn-link btn-link-md">View all <i
+                                    class="fa-solid fa-arrow-down"></i></a></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</body>
+
+</html>

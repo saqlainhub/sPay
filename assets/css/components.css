@@ -1,0 +1,69 @@
+/* ====================== LANDING PAGE NAVBAR ========================= */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  background-color: var(--bg-main);
+  border-bottom: 1px solid var(--border-secondary);
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-left {
+  width: 20%;
+  display: flex;
+  justify-content: left;
+}
+
+.nav-middle {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-middle a {
+  text-decoration: none;
+  padding: 4px 0;
+  color: var(--text-primary);
+  font-size: var(--text-size-md);
+  margin: 0 10px;
+  transition: color ease 0.2s;
+}
+
+.nav-middle a:hover {
+  color: var(--color-primary-base);
+}
+
+.nav-active {
+  color: var(--color-primary-base) !important;
+  border-bottom: 2px solid var(--color-primary-base);
+}
+
+.nav-right {
+  width: 20%;
+  margin-right: 44px;
+  display: flex;
+  justify-content: right;
+}
+
+
+/* ====================== SIDEBAR ======================== */
+
+
+/* ====================== FOOTER ========================= */
+.footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-base);
+    color: var(--color-white);
+}

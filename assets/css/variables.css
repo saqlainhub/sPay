@@ -1,0 +1,117 @@
+
+:root {
+  
+  /* =========== BRAND COLORS ============ */
+  --color-primary-dark: #1D4ED8;
+  --color-primary-base: #1D4ED8;
+  --color-primary-light: #1D4ED8;
+  --color-secondary-light: #f49146;
+  --color-secondary-base: #E25923;
+  --color-secondary-dark: #B24519;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gradient: linear-gradient(90deg, #0061FF, #60EFFF);
+
+  /* ========== DEFAULT COLORS =========== */
+  --color-success: #2ECC71;
+  --color-danger: #E74C3C;
+  --color-warning: #F1C40F;
+  --color-info: #3498DB;
+
+  /* ============ TYPOGRAPHY ============== */
+  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+
+  --font-size-xs: clamp(10px, 0.8vw, 12px);       
+  --font-size-sm: clamp(12px, 0.9vw, 14px);       
+  --font-size-md: clamp(14px, 1vw, 16px);         
+  --font-size-lg: clamp(16px, 1.2vw, 18px);       
+  --font-size-xl: clamp(18px, 1.4vw, 20px);      
+  --font-size-2xl: clamp(20px, 1.6vw, 24px);    
+  --font-size-3xl: clamp(24px, 2vw, 28px);      
+  --font-size-4xl: clamp(28px, 2.4vw, 32px);    
+  --font-size-5xl: clamp(36px, 3vw, 40px);     
+
+
+
+
+
+
+
+
+
+  
+  /* ========================= LIGHT THEME =========================== */
+
+  /* ======== BACKGROUNDS & BORDER ========= */
+  --bg-main: #F5F7FA;
+  --bg-card: #FFFFFF;
+  --bg-input: #FFFFFF;
+  --bg-overlay: rgba(0, 0, 0, 0.4);
+
+  --border-primary: #E5E7EB;
+  --border-secondary: #D1D5DB;
+
+  --color-light: #ffffff;
+  --color-dark: #000000;
+
+  /* ============= TEXT COLORS ============== */
+  --text-heading: #272f38;
+  --text-primary: #1F2933;
+  --text-secondary: #4B5563;
+  --text-muted: #6B7280;
+
+  /* ========== SHADOWS & OVERLAY =========== */
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 6px 15px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.12);
+
+  --bg-overlay: rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= DARK THEME ================================= */
+[data-theme="dark"] {
+
+  /* ======== BACKGROUNDS & BORDER ========= */
+  --bg-main: #0D111D;
+  --bg-card: #1E293B;
+  --bg-input: #1E293B;
+
+  --border-primary: #334155;
+  --border-secondary: #475569;
+
+  --color-light: #000000;
+  --color-dark: #ffffff;
+
+  --color-primary-base: #E25923;
+  --color-secondary-base: #1D4ED8;
+  
+
+  /* ============= TEXT COLORS ============== */
+  --text-heading: #ffffff;
+  --text-primary: #E5E7EB;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+
+  /* ========= SHADOWS & OVERLAY ============ */
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 6px 15px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.7);
+
+  --bg-overlay: rgba(0, 0, 0, 0.6);
+
+}
+
+

@@ -1,0 +1,116 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+    z-index: 1;
+    background-color: var(--color-primary-light);
+    position: fixed;
+}
+
+.credit-cards {
+    width: 400px;
+}
+
+.right-container {
+    width: 60%;
+    top: 80px;
+    left: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-container-content {
+    text-align: center;
+    width: 400px;
+    color: var(--color-white);
+}
+
+.main-container-content h1 {
+    margin-bottom: 4px;
+}
+
+
+
+
+/* ================== Form ====================== */
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 320px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.form h2 {
+    font-size: var(--font-size-3xl);
+    margin-bottom: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.form-group input {
+    padding: 12px;
+    border: 1px solid var(--border-secondary);
+    border-radius: 6px;
+}
+
+.form-group input:focus {
+    border-color: var(--color-primary-base);
+    outline: none;
+}
+
+.account-link {
+    text-decoration: none;
+    color: var(--color-primary-light);
+    margin-top: 4px;
+}
+
+.account-link:hover {
+    text-decoration: underline;
+}
+
+.btn-full {
+    margin-top: 8px;
+}
+
+.btn-full i {
+    margin-left: 4px;
+}
+
+.otp-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.otp-input {
+    width: 40px;
+    text-align: center;
+    padding: 9px 0 !important;
+    font-size: var(--font-size-lg);
+}
+
+.hidden {
+    display: none;
+}
+

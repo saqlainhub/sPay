@@ -1,0 +1,80 @@
+/* ===== Transactions =====*/
+
+.db-transactions {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 100px 80px 100px 100px;
+    gap: 16px;
+    background-color: var(--bg-card);
+}
+
+.db-transactions-tags {
+    margin-top: 32px;
+    margin-left: 4px;
+}
+
+.db-transactions-tags a {
+    text-decoration: none;
+    color: var(--text-primary);
+    margin-right: 24px;
+}
+
+.tag-active {
+    font-weight: bold;
+}
+
+.db-transactions-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.db-list-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px 16px 8px;
+    border-radius: 8px;
+}
+
+.db-list-group:hover {
+    background-color: var(--bg-main);
+    cursor: pointer;
+}
+
+.db-list-content {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.db-list-icon {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ced8f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.db-list-name {
+    font-size: var(--font-size-md);
+}
+
+.db-list-date {
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.db-list-money {
+    font-weight: bold;
+    color: var(--text-heading);
+    font-size: var(--font-size-lg);
+}
+
+
+
